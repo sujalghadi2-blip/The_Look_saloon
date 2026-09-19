@@ -307,7 +307,7 @@ body {
 .g1 {
   background: linear-gradient(145deg, #42362e, #a88668);
   #b9a18a);
-  background-image:URL("./Img1.jpg");
+  background:URL("./Img1.jpg");
   background-size:cover;
   background-position: center;
   color:red;
@@ -316,7 +316,7 @@ body {
 .g2 {
   background: linear-gradient(145deg, #9b7555, #e0c9b2);
    #b9a18a);
-  background-image:URL("./Img2.jpg");
+  background:URL("./Img2.jpg");
   background-size:cover;
   background-position: center;
   color:red;
@@ -325,7 +325,7 @@ body {
 .g3 {
   background: linear-gradient(145deg, #51433a, #b9a18a);
   #b9a18a);
-  background-image:URL("./Img3.jpg");
+  background:URL("./Img3.jpg");
   background-size:cover;
   background-position: center;
   color:red;
