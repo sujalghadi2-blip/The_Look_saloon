@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxe Salon | Hair & Beauty Studio</title>
+  <link rel="stylesheet" href="Saloon.css">
+</head>
+
+<body>
+
+<header class="navbar">
+  <a class="logo" href="#home">LUXE<span>.</span></a>
+
+  <button class="menu-btn">☰</button>
+
+  <nav class="nav-links">
+    <a href="#home">Home</a>
+    <a href="#services">Services</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+    <a class="nav-book" href="#booking">Book Now</a>
+  </nav>
+</header>
+
+<main>
+
+<section id="home" class="hero">
+  <div class="hero-content">
+    <p class="eyebrow">HAIR • BEAUTY • GROOMING</p>
+
+    <h1>
+      Look good.<br>
+      <em>Feel amazing.</em>
+    </h1>
+
+    <p class="hero-text">
+      Premium salon experiences crafted around you.
+      From fresh cuts to complete beauty makeovers.
+    </p>
+
+    <div class="hero-actions">
+      <a class="btn primary" href="#booking">
+        Book an Appointment
+      </a>
+
+      <a class="btn secondary" href="#services">
+        Explore Services
+      </a>
+    </div>
+  </div>
+
+  <div class="hero-card">
+    <span>OPEN TODAY</span>
+    <strong>10:00 AM — 9:00 PM</strong>
+    <small>
+      Walk-ins welcome • Appointments recommended
+    </small>
+  </div>
+</section>
+
+
+<section id="services" class="section">
+
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">WHAT WE DO</p>
+      <h2>Our Services</h2>
+    </div>
+
+    <p>
+      Professional care, modern techniques and a relaxing atmosphere.
+    </p>
+  </div>
+
+  <div class="service-grid">
+
+    <article class="service-card">
+      <div class="icon">✂</div>
+      <h3>Haircut & Styling</h3>
+      <p>
+        Precision cuts, blow-dry and styling tailored to your look.
+      </p>
+      <strong>From ₹399</strong>
+    </article>
+
+    <article class="service-card">
+      <div class="icon">✦</div>
+      <h3>Hair Color</h3>
+      <p>
+        Global color, highlights, balayage and expert color care.
+      </p>
+      <strong>From ₹1,499</strong>
+    </article>
+
+    <article class="service-card">
+      <div class="icon">◉</div>
+      <h3>Facials</h3>
+      <p>
+        Refreshing facial treatments for clean, healthy-looking skin.
+      </p>
+      <strong>From ₹699</strong>
+    </article>
+
+    <article class="service-card">
+      <div class="icon">♢</div>
+      <h3>Bridal & Party</h3>
+      <p>
+        Makeup, hair styling and complete looks for special occasions.
+      </p>
+      <strong>From ₹2,999</strong>
+    </article>
+
+  </div>
+</section>
+
+
+<section id="about" class="about">
+
+  <div class="about-image">
+    <span>
+      YOUR<br>
+      STYLE<br>
+      STARTS<br>
+      HERE.
+    </span>
+  </div>
+
+  <div class="about-content">
+
+    <p class="eyebrow">ABOUT LUXE</p>
+
+    <h2>
+      A little luxury<br>
+      for your everyday.
+    </h2>
+
+    <p>
+      We believe a salon visit should feel like time well spent.
+      Our stylists combine modern techniques with personal attention
+      to create a look that feels right for you.
+    </p>
+
+    <div class="stats">
+
+      <div>
+        <strong>8+</strong>
+        <span>Years Experience</span>
+      </div>
+
+      <div>
+        <strong>5k+</strong>
+        <span>Happy Clients</span>
+      </div>
+
+      <div>
+        <strong>12</strong>
+        <span>Beauty Services</span>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="gallery" class="section gallery-section">
+
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">OUR SPACE</p>
+      <h2>Salon Gallery</h2>
+    </div>
+
+    <p>
+      A clean, comfortable space designed for your next transformation.
+    </p>
+  </div>
+
+  <div class="gallery">
+
+    <div class="gallery-box g1">
+      HAIR<br>STUDIO
+    </div>
+
+    <div class="gallery-box g2">
+      BEAUTY<br>BAR
+    </div>
+
+    <div class="gallery-box g3">
+      STYLE<br>LOUNGE
+    </div>
+
+  </div>
+
+</section>
+
+
+<section id="booking" class="booking">
+
+  <div>
+
+    <p class="eyebrow">READY WHEN YOU ARE</p>
+
+    <h2>
+      Book your next look.
+    </h2>
+
+    <p>
+      Choose a date and tell us what you need.
+      We'll confirm your appointment shortly.
+    </p>
+
+  </div>
+
+  <form id="bookingForm">
+
+    <input
+      type="text"
+      id="name"
+      placeholder="Your name"
+      required
+    >
+
+    <input
+      type="tel"
+      id="phone"
+      placeholder="Phone number"
+      required
+    >
+
+    <select id="service" required>
+      <option value="">Choose a service</option>
+      <option>Haircut & Styling</option>
+      <option>Hair Color</option>
+      <option>Facial</option>
+      <option>Bridal & Party</option>
+    </select>
+
+    <input
+      type="date"
+      id="date"
+      required
+    >
+
+    <button class="btn primary" type="submit">
+      Request Appointment
+    </button>
+
+  </form>
+
+</section>
+
+
+<section id="contact" class="contact section">
+
+  <div>
+    <p class="eyebrow">COME SAY HI</p>
+
+    <h2>
+      Let's get you<br>
+      looking your best.
+    </h2>
+  </div>
+
+  <div class="contact-details">
+
+    <p>
+      <strong>📍 Address</strong><br>
+      MG Road, Pune, Maharashtra
+    </p>
+
+    <p>
+      <strong>📞 Phone</strong><br>
+      +91 98765 43210
+    </p>
+
+    <p>
+      <strong>✉ Email</strong><br>
+      hello@luxesalon.in
+    </p>
+
+  </div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+  <div class="logo">
+    LUXE<span>.</span>
+  </div>
+
+  <p>© 2026 Luxe Salon. All rights reserved.</p>
+
+  <a href="#home">Back to top ↑</a>
+
+</footer>
+
+<script src="Saloon1.js"></script>
+
+</body>
+</html>
