@@ -306,14 +306,29 @@ body {
 
 .g1 {
   background: linear-gradient(145deg, #42362e, #a88668);
+  #b9a18a);
+  background-image:URL("img1.jpg");
+  background-size:cover;
+  background-position: center;
+  color:red;
 }
 
 .g2 {
   background: linear-gradient(145deg, #9b7555, #e0c9b2);
+   #b9a18a);
+  background-image:URL("img2.jpg");
+  background-size:cover;
+  background-position: center;
+  color:red;
 }
 
 .g3 {
   background: linear-gradient(145deg, #51433a, #b9a18a);
+  #b9a18a);
+  background-image:URL("img3.jpg");
+  background-size:cover;
+  background-position: center;
+  color:red;
 }
 
 
